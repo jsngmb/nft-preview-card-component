@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  margin: 0;
+  background-color: #0d192b;
+  font-family: 'Outfit';
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .card {
+  width: 20em;
+  margin: auto;
+  background-color: #14253d;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 15px 20px 13px #000d1f;
+          box-shadow: 0px 15px 20px 13px #000d1f;
+}
+
+.container .card .eq-img {
+  position: relative;
+  display: inline-block;
+}
+
+.container .card .eq-img .view-img {
+  opacity: 0;
+  position: absolute;
+  top: 5.5%;
+  left: 0;
+  z-index: 99;
+  border-radius: 10px;
+  padding: 7.5em;
+}
+
+.container .card .eq-img .view-img:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(0, 255, 247, 0.427);
+}
+
+.container .card .eq-img .main-img {
+  margin-top: 1em;
+  border-radius: 10px;
+  width: 18em;
+  z-index: -1;
+}
+
+.container .card .eq-text {
+  text-align: left;
+  margin-left: 1em;
+}
+
+.container .card .eq-text h3 {
+  color: white;
+}
+
+.container .card .eq-text h3:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.container .card .eq-text p {
+  color: #8bacda;
+}
+
+.container .card .nft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -1em;
+}
+
+.container .card .nft .eth, .container .card .nft .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0em 1em;
+}
+
+.container .card .nft .eth p, .container .card .nft .time p {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #8bacda;
+}
+
+.container .card .nft .eth p {
+  color: #00fff7;
+}
+
+.container .card hr {
+  border: none;
+  height: 1px;
+  margin: 0 1em;
+  background-color: #2f415b;
+}
+
+.container .card .creator {
+  margin-left: 1em;
+  padding-bottom: 1em;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .creator .img-creator {
+  width: 1.5em;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.container .card .creator p {
+  margin-left: 10px;
+  color: #8bacda;
+}
+
+.container .card .creator p span {
+  color: white;
+}
+
+.container .card .creator p span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
